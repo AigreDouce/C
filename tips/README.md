@@ -18,3 +18,9 @@ git commit -m "<my comment explaining the modification>"
 ```bash
 git push
 ```
+
+* in case the locale branch doesn't exist yet on the central repository, we have to create it.
+
+```bash
+git push --set-upstream origin <name of my branch>
+```
